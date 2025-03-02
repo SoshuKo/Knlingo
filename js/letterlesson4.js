@@ -8,7 +8,9 @@ const letters = [
     { kniun: 'O', latin: 'hng' },
     { kniun: 'o', latin: 'ng' },
     { kniun: 'x', latin: 'x' },
-    { kniun: '%', latin: 'gh' }
+    { kniun: '%', latin: 'gh' },
+    { kniun: 'q', latin: 'q' },
+    { kniun: 'h', latin: 'h' } 
 ];
 
 let currentQuestionIndex = 0;
