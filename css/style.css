@@ -189,3 +189,30 @@ main {
     background-color: lightcoral;
     border-color: red;
 }
+
+audio {
+    width: 80%; /* 幅を調整 */
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+}
+
+audio::-webkit-media-controls-play-button {
+    background-color: #F09000;
+    border-radius: 50%;
+    color: white;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: #F09000;
+}
+
+audio::-webkit-media-controls-timeline {
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+audio::-webkit-media-controls-timeline-played {
+    background-color: #F09000;
+}
