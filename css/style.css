@@ -216,3 +216,22 @@ audio::-webkit-media-controls-timeline {
 audio::-webkit-media-controls-timeline-played {
     background-color: #F09000;
 }
+
+#answer-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#answer-container span {
+    border: 1px dashed #ccc;
+    padding: 5px 10px;
+    min-width: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#answer-container span.filled {
+    border: 1px solid #F09000;
+}
